@@ -1,4 +1,5 @@
 import { render, screen } from "@testing-library/react";
+
 import App from "./App";
 
 test("Button starts with correct color", () => {
@@ -17,7 +18,3 @@ test("Button has correct color after click", () => {
   
 });
 
-test("Button has correct text after click", () => {
-  render(<App />);
-  
-});
